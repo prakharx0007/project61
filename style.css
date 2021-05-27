@@ -1,0 +1,173 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.images {
+    width: 250px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#eecda3 0%, #ef629f 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    color: white;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(#bdc3c7 0%, #2c3e50 100%);
+}
+
+#hobby {
+    padding: 50px;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient( #06beb6 0%, #48b1bf 100%);
+    top: 300;
+    bottom: 300px;
+}
+
+#Mycollections {
+    padding: 50px;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(#02aab0 0%, #00cdac 100%)
+}
+
+#Myinspiration {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(#43cea2 0%, #185a9d 100%)
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#u {
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 36px;
+    line-height: 2;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#p {
+    max-width: 800px;
+    margin: 25px auto;
+    font-size: 36px;
+    line-height: 1.5;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    display: block;
+    padding-left: 33px;
+    padding-right: 25px;
+    margin-top: 0px;
+    top: 0px;
+}
+
+.links {
+    padding-left: 33px;
+    padding-right: 33px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color: blanchedalmond;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: fantasy;
+    color: palevioletred;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#imge {
+    width: 250px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.inspiration {
+    width: 25%;
+    height: 300px;
+    border: 10px solid grey;
+}
+
+i {
+    background-color: firebrick;
+}
+
+#name {
+    color: white;
+    text-shadow: none;
+    font-size: 22px;
+}
